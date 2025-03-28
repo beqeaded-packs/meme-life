@@ -1,0 +1,119 @@
+{
+  "item.spyglass.use": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "item/spyglass/miku-miku-beam",
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.item.spyglass.use"
+  },
+
+  "entity.player.death": {
+    "sounds": [
+      {
+        "name": "player/player_death",
+        "stream": true
+      }
+    ],
+    "replace": true,
+    "subtitle": "Re:Zero"
+  },
+
+  "entity.player.burp": {
+    "sounds": [
+      {
+        "name": "player/burp",
+        "volume": 0.5,
+        "stream": true
+      },
+      {
+        "name": "player/burp1",
+        "volume": 0.5,
+        "stream": true
+      }
+    ],
+    "replace": true,
+    "subtitle": "Рыганина"
+  },
+
+  "entity.ghast.hurt": {
+    "sounds": [
+      {
+        "name": "mobs/ghast/scream",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "replace": true
+  },
+  "entity.ghast.warn": {
+    "sounds": [
+      {
+        "name": "mobs/ghast/shoot",
+        "stream": true
+      }
+    ],
+    "replace": true
+  },
+  "entity.generic.explode": {
+    "sounds": [
+      {
+        "name": "util/boom1",
+        "stream": true
+      },
+      {
+        "name": "util/boom2",
+        "stream": true
+      }
+    ],
+    "replace": true
+  },
+
+  "entity.creeper.primed": {
+    "sounds": [
+      {
+        "name": "mobs/creeper/oma",
+        "stream": true
+      },
+      {
+        "name": "mobs/creeper/cola",
+        "stream": true
+      },
+      {
+        "name": "mobs/creeper/totamato",
+        "stream": true
+      },
+      {
+        "name": "mobs/ghast/scream",
+        "stream": true,
+        "volume": 0.7
+      }
+    ],
+    "replace": true
+  },
+
+  "entity.wolf.hurt": {
+    "sounds": [
+      {
+        "name": "mobs/wolf/hurt1",
+        "weight": 50
+      },
+      {
+        "name": "mobs/wolf/hurt2",
+        "weight": 1,
+        "stream": true
+      },
+      {
+        "name": "mobs/wolf/hurt3",
+        "weight": 25
+      },
+      {
+        "name": "mobs/wolf/hurt4",
+        "weight": 24
+      }
+    ],
+    "replace": true
+  }
+}
