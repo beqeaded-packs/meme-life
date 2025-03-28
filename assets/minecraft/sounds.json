@@ -21,6 +21,17 @@
     "subtitle": "Re:Zero"
   },
 
+  "entity.player.hurt": {
+    "sounds": [
+      {
+        "name": "player/player_hurt",
+        "stream": true
+      }
+    ],
+    "replace": true,
+    "subtitle": "Ahh"
+  },
+
   "entity.player.burp": {
     "sounds": [
       {
